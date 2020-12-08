@@ -2,7 +2,7 @@ import re
 from datetime import timedelta
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyA9GoHCZoFefD0U0xxvgTYTE6-fLr4s3yU'
+api_key = ''
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 hours_pattern = re.compile(r'(\d+)H')
